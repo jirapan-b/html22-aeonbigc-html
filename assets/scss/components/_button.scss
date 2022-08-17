@@ -1,0 +1,113 @@
+.btn {
+	background: none;
+	position: relative;
+	padding: 0 10px;
+	min-width: 120px;
+	height: 50px;
+	line-height: 48px;
+	border: 1px solid transparent;
+	border-radius: 0;
+	font-size: var(--typo-default);
+	font-weight: var(--fw-normal);
+	&.fluid {
+		min-width: inherit;
+		width: 100%;
+	}
+	&:focus {
+		box-shadow: none;
+	}
+	&.btn-xs {
+	}
+	&.btn-sm {
+	}
+	&.btn-lg {
+	}
+}
+
+.btn:not(:disabled):not(.disabled).active:focus,
+.btn:not(:disabled):not(.disabled):active:focus,
+.show > .btn.dropdown-toggle:focus {
+	box-shadow: none;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+	color: #fff;
+	background-color: var(--color-primary);
+	border-color: transparent;
+}
+.btn-primary:hover,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.btn-primary:active:focus,
+.btn-primary.actitve:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.btn-primary:focus:hover,
+.btn-primary.focus:hover {
+	color: #fff;
+	background-color: var(--color-primary);
+	border-color: transparent;
+}
+.btn-primary.disabled,
+.btn-primary.disabled:hover {
+	color: #fff;
+	background-color: var(--color-primary);
+	border-color: transparent;
+	opacity: 0.5;
+}
+
+.btn-primary {
+	color: var(--color-light);
+	background: linear-gradient(#e456ff 0%, #7461cf 100%);
+}
+.btn-secondary {
+	overflow: hidden;
+	color: var(--color-primary);
+	background: var(--color-light);
+}
+.btn-primary,
+.btn-secondary {
+	font-size: var(--typo-sm);
+	font-weight: var(--fw-bold);
+	line-height: 60px;
+	width: 160px;
+	height: 60px;
+	border-radius: var(--border-radius-md);
+	box-shadow: var(--box-shadow-15);
+	border: none;
+	&.-x2 {
+		font-size: var(--typo-40);
+		width: 280px;
+		height: 80px;
+		line-height: 80px;
+	}
+}
+.btn-secondary:hover {
+	color: var(--color-light);
+	background: transparent;
+	border: none;
+}
+.btn-secondary::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background: linear-gradient(#e456ff 0%, #7461cf 100%);
+	transition: all 200ms ease-in-out;
+}
+.btn-secondary:hover::before {
+	opacity: 1;
+}
+.btn-primary:hover,
+.btn-secondary:hover {
+	box-shadow: var(--box-shadow-30);
+	transform: translateY(-4px);
+}

@@ -1,0 +1,177 @@
+:root {
+    --color-primary: #7461cf;
+    --color-secondary: #333333;
+    --color-success: #28a745;
+    --color-info: #17a2b8;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+    --color-gray: #6c757d;
+    --color-light: #fff;
+    --color-dark: #000;
+    --color-default: #666;
+
+    --color-border: #666;
+
+    --fw-light: 100;
+    --fw-normal: 300;
+    --fw-medium: 500;
+    --fw-bold: 600;
+
+    // --typo-xs: 18px;
+    // --typo-sm: 22px;
+    // --typo-md: 24px;
+    // --typo-lg: 30px;
+    // --typo-xl: 34px;
+
+    --typo-xs: 20px;
+    --typo-sm: 24px;
+    --typo-md: 36px;
+    --typo-lg: 60px;
+    --typo-xl: 100px;
+
+    --typo-40: 40px;
+    --typo-bg: 24vh;
+
+    --typo-default: 22px;
+
+    --border-radius: 5px;
+    --border-radius-sm: 10px;
+    --border-radius-md: 15px;
+    --border-radius-lg: 20px;
+
+    --box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    --box-shadow-15: 0px 15px 15px rgba(116, 97, 207, 0.3);
+    --box-shadow-30: 0px 15px 30px rgba(116, 97, 207, 0.5);
+    --box-shadow-40: 0px 20px 40px rgba(0, 0, 0, 0.16);
+
+    @media (max-width: 1600px) {
+        --typo-bg: 20vh;
+        --typo-btn: 36px;
+
+        --typo-xl: 80px;
+        --typo-lg: 50px;
+    }
+
+    @media (max-width: 1440px) {
+        --typo-bg: 18vh;
+        --typo-btn: 32px;
+        --typo-40: 36px;
+
+        --typo-xl: 70px;
+        --typo-lg: 42px;
+        --typo-md: 34px;
+    }
+
+    @media (max-width: 1199px) {
+        --typo-bg: 15vh;
+        --typo-btn: 28px;
+        --typo-40: 32px;
+
+        --typo-xl: 50px;
+        --typo-lg: 36px;
+        --typo-md: 30px;
+        --typo-sm: 22px;
+        --typo-xs: 18px;
+
+        --border-radius-sm: 5px;
+        --border-radius-md: 10px;
+        --border-radius-lg: 15px;
+    }
+
+    @media (max-width: 991px) {
+        --typo-bg: 8vh;
+        --typo-btn: 26px;
+        --typo-40: 30px;
+
+        --typo-xl: 40px;
+        --typo-md: 26px;
+        --typo-sm: 20px;
+        --typo-xs: 16px;
+
+        --typo-default: 16px;
+    }
+    @media (max-width: 767px) {
+        --typo-bg: 5vh;
+        --typo-btn: 24px;
+        --typo-40: 26px;
+
+
+        --typo-xl: 30px;
+        --typo-lg: 26px;
+        --typo-md: 22px;
+        --typo-sm: 18px;
+        --typo-xs: 16px;
+
+        --typo-default: 14px;
+
+        --border-radius-lg: 10px;
+    }
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+    -webkit-text-stroke-color: var(--color-primary) !important;
+}
+.text-secondary {
+    color: var(--color-secondary) !important;
+}
+.text-success {
+    color: var(--color-success) !important;
+}
+.text-info {
+    color: var(--color-info) !important;
+}
+.text-warning {
+    color: var(--color-warning) !important;
+}
+.text-danger {
+    color: var(--color-danger) !important;
+}
+.text-gray {
+    color: var(--color-gray) !important;
+}
+.text-light {
+    color: var(--color-light) !important;
+}
+.text-dark {
+    color: var(--color-dark) !important;
+}
+.text-default {
+    color: var(--color-default) !important;
+}
+
+.fw-light {
+    font-weight: var(--fw-light);
+}
+.fw-normal {
+    font-weight: var(--fw-normal);
+}
+.fw-medium {
+    font-weight: var(--fw-medium);
+}
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+.typo-xs {
+    font-size: var(--typo-xs);
+}
+.typo-sm {
+    font-size: var(--typo-sm);
+}
+.typo-md {
+    font-size: var(--typo-md);
+}
+.typo-lg {
+    font-size: var(--typo-lg);
+}
+.typo-xl {
+    font-size: var(--typo-xl);
+}
+.typo-default {
+    font-size: var(--typo-default);
+}
+
+.typo-40 {
+    font-size: var(--typo-40);
+}

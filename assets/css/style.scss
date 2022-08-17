@@ -1,0 +1,33 @@
+@import '../scss/configs/_font';
+
+
+@import '../scss/vendors/_aos';
+@import '../scss/vendors/_feather';
+@import '../scss/vendors/_select2.min';
+@import '../scss/vendors/_slick-theme';
+@import '../scss/vendors/_slick';
+
+@import '../scss/components/_breadcrumb';
+@import '../scss/components/_button';
+@import '../scss/components/_editor-content';
+@import '../scss/components/_form';
+@import '../scss/components/_pagination';
+@import '../scss/components/_whead';
+@import '../scss/components/_modal';
+@import '../scss/components/_sweetalert';
+
+@import '../scss/configs/_variable';
+@import '../scss/configs/_default';
+@import '../scss/configs/_base';
+
+@import '../scss/layouts/_header';
+@import '../scss/layouts/_footer';
+ 
+@import '../scss/pages/_default';
+@import '../scss/pages/_home';
+@import '../scss/pages/_card-activate';
+@import '../scss/pages/_card-register';
+@import '../scss/pages/_promotion';
+@import '../scss/pages/_insurance';
+
+@import '../scss/layouts/_breakpoints';

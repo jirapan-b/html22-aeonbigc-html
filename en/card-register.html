@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AEON</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="format-detection" content="telephone=no">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:locale" content="">
+    <meta property="og:locale:alternate" content="">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+    <!-- <link rel="manifest" href="../assets/favicon/manifest.json"> -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Core -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/normalize.min.css">
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
+
+    <link rel="stylesheet" href="../assets/css/carousel.css" />
+
+    <!-- Custom -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/modify.css">
+
+
+    <style>
+        /* @media (max-width: 991px) {
+            .global-container {
+                height: 100%;
+            }
+
+            .site-container {
+                height: calc(89% - 90px);
+            }
+
+            .site-footer {
+                padding: 0;
+                height: 12%;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+
+    <div class="global-container" style="background-image: url(../assets/img/background/02-Card-Register-bg.png)">
+        <header class="site-header">
+            <nav class="nav justify-content-between align-items-center">
+                <div class="toggle" data-aos="fade-down" data-aos-delay="200">
+                    <a href="javascript:void(0);" class="icon blur">
+                        <i class="feather icon-menu"></i>
+                    </a>
+                </div>
+                <div class="logo" data-aos="fade-down" data-aos-delay="200">
+                    <!-- <a class="link" href="https://www.aeon.co.th/aeon/home/?&language_id=1" target="_blank"> -->
+                    <a class="link" href="index.html">
+                        <img src="../assets/img/static/logo.png" alt="aeon logo">
+                    </a>
+                </div>
+                <div class="menu" data-aos="fade-down" data-aos-delay="200">
+                    <ul class="item-list">
+                        <!-- <li class="home">
+                            <a href="index.html" class="link blur">Home</a>
+                        </li> -->
+                        <li class="card-activate">
+                            <a href="card-activate.html" class="link blur">Activate Card</a>
+                        </li>
+                        <li class="card-register">
+                            <a href="card-register.html" class="link blur">Register Card</a>
+                        </li>
+                        <li class="promotion">
+                            <a href="promotion.html" class="link blur">Promotion</a>
+                        </li>
+                        <li class="insurance">
+                            <a href="insurance.html" class="link blur">Insurance</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="item-list brand-lang d-flex align-items-center" data-aos="fade-down" data-aos-delay="200">
+                    <li>
+                        <a href="https://www.aeon.co.th/aeon/home/?&language_id=1" class="link home blur" target="_blank">
+                            <span class="feather icon-home"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.bigc.co.th/" class="brand blur" target="_blank">
+                            <img src="../assets/img/static/bigc-online-black@2x.png" alt="bigc online">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../index.html" class="link lang blur switch-lang">TH</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="site-container">
+            <div class="card-register-page default-page">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col">
+
+                                <div class="card-reg-slider">
+                                    <?php for ($i = 1; $i <= 2; $i++) { ?>
+                                    <div class="item big-c-world-mastercard" data-aos="fade-up">
+                                        <div class="credit-card black">
+                                            <h1 class="txt-bg" data-aos="fade-up" data-aos-delay="200">
+                                                World
+                                            </h1>
+                                            <div class="row no-gutters">
+                                                <div class="col-lg-3 card-left">
+                                                    <div class="row no-gutters">
+                                                        <div class="col" style="overflow: hidden;">
+                                                            <div class="txt">
+                                                                <h2 class="txt-title txt-stroke">
+                                                                    CREDIT CARD
+                                                                </h2>
+                                                                <h2 class="txt-title mt-3">
+                                                                    Big C <br> World Mastercard
+                                                                </h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-img">
+                                                        <div class="cover">
+                                                            <img src="../assets/img/static/AEON-Big-C-Black.png" alt="Big C World Mastercard Card">
+                                                        </div>
+                                                    </div>
+                                                    <div class="register-btn">
+                                                        <a href="https://www.aeon.co.th/onlineapplycard/applycard/pcCustomer/checkMessengerArea?lang=en_EN&cardCode=WC&promoreferAEON=https%3A%2F%2Fwww.aeon.co.th%2Fonlineapplycard%2Fservices%2Fcustomer%3Flang%3Den_EN%26cardCode%3DWC&promorefer=&promorefer=https%3A%2F%2Fwww.aeon.co.th%2Faeon%2Fcards%2F%3F%26language_id%3D1"
+                                                            class="btn btn-primary -x2" target="_blank">Register Card</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg">
+                                                    <div class="box blur">
+                                                        <div class="row">
+                                                            <div class="col-lg-auto">
+                                                                <h3 class="topic">
+                                                                    Card Benefit of Big C World Mastercard
+                                                                </h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scroll">
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="circle">
+                                                                        <p>
+                                                                            7 <span class="percent">%</span>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">Instant Discount up to 7% at Big C</div>
+                                                                    <p>
+                                                                        • Receive 7% Instant Discount at Big C Shopping Online and Receive 5% Instant Discount calculate from spending amount via card at every branch of Big C Supercenter, Big C Extra, Big C Market, Mini Big C, Big C Food Place, Big C Depot and Pure drug store.
+                                                                        (selected items only)
+                                                                    </p>
+                                                                    <p>
+                                                                        Maximum discount 1,500 Baht / card / month when making payment on selected items including making a full payment on electrics appliances with Big C World Mastercard credit card and scanning Big Point QR code on the back of credit card (the privilege applies
+                                                                        only when cardholders pick up products at Big C branches and pay via Big C Shopping Online website (Payment Gateway) only. In case payment by credit card on delivery cannot be applied
+                                                                        for an instant discount)
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="img">
+                                                                        <img src="../assets/img/static/card-wc-2.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">Extra AEON Happy Point up to 2,000 points</div>
+                                                                    <p>
+                                                                        • Every 20 Baht of spending through Big C World Mastercard Credit Card at any merchants, get 1 AEON Happy Point
+                                                                    </p>
+                                                                    <p>
+                                                                        • Extra AEON Happy Point maximum 2,000 points per billing cycle when making payment on categories: Restaurant, Hotel, Online Shopping and International Spending (Foreign Currency) (MCC CODE prescribed by the Company)
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Get AEON Happy Point X3 when accumulated Spending from 5,000 Baht or more / billing cycle(maximum Extra Points 500 points /card/ billing cycle)
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Get AEON Happy Point X5 when accumulated Spending from 10,000 Baht or more / billing cycle(maximum Extra Points 2,000 points /card/ billing cycle)
+                                                                    </p>
+                                                                    <table class="table">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th>Accumulated Spending </th>
+                                                                                <th>Happy Point </th>
+                                                                                <th>Extra Happy Point</th>
+                                                                                <th>Max Extra Happy Point</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    0 - 4,999 Baht
+                                                                                </td>
+                                                                                <td>
+                                                                                    X1
+                                                                                </td>
+                                                                                <td>-</td>
+                                                                                <td>-</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    5,000 - 9,999 Baht
+                                                                                </td>
+                                                                                <td>
+                                                                                    X1
+                                                                                </td>
+                                                                                <td>
+                                                                                    X2
+                                                                                </td>
+                                                                                <td>
+                                                                                    500
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    10,000 Baht up
+                                                                                </td>
+                                                                                <td>
+                                                                                    X1
+                                                                                </td>
+                                                                                <td>
+                                                                                    X4
+                                                                                </td>
+                                                                                <td>
+                                                                                    2,000
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                    <p>
+                                                                        • Cardholders can redeem AEON Happy Point for Big C E-Coupon via AEON THAI MOBILE Application (1,000 AEON Happy Points for Big C E-Coupon valued 100 Baht)
+                                                                    </p>
+                                                                    <p>
+                                                                        • The company reserves the right for purchase of any mutual fund or insurance policy through AEON credit card will no longer be entitled to AEON Happy Rewards Point and promotion campaigns which incurred via AEON credit card for the transactions at any
+                                                                        under code (MCC 5960, 6211, 6300, 9223).
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="circle">
+                                                                        <p>
+                                                                            0 <span class="percent">%</span>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">0% with maximum 10-Month Installment Plan</div>
+                                                                    <p>
+                                                                        Get interest rate at 0% installment payment with AEON Happy Plan when purchasing electric appliances (selected items) and Home-Line items (selected items) at every branch of Big C Supercenter and Big C Extra
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • interest rate at 0% for 10-month from 10,000 Baht or more / sales slip
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • interest rate at 0% for 6-month from 5,000 Baht or more / sales slip
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="circle">
+                                                                        <div class="icon ml-4">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="138.089" height="138.089" viewBox="0 0 138.089 138.089">
+                                                                                    <g transform="translate(-2 -2)">
+                                                                                        <path d="M34.015,48.03A23.015,23.015,0,1,0,11,25.015,23.015,23.015,0,0,0,34.015,48.03Zm0-41.427A18.412,18.412,0,1,1,15.6,25.015,18.412,18.412,0,0,1,34.015,6.6Z" transform="translate(11.713 0)" fill="#7461cf" />
+                                                                                        <rect width="4.603" height="4.603" transform="translate(43.427 64.14)" fill="#7461cf" />
+                                                                                        <path d="M96.391,34.22A80.358,80.358,0,0,1,67.3,25.27a2.3,2.3,0,0,0-2.163,0,80.358,80.358,0,0,1-29.088,8.95A2.3,2.3,0,0,0,34,36.508V63.769a50.209,50.209,0,0,0,31.335,46.209,2.3,2.3,0,0,0,1.772,0A50.209,50.209,0,0,0,98.441,63.769V36.508a2.3,2.3,0,0,0-2.051-2.288ZM93.839,63.769A45.581,45.581,0,0,1,66.221,105.35,45.581,45.581,0,0,1,38.6,63.769V38.545A84.883,84.883,0,0,0,66.221,29.9a84.865,84.865,0,0,0,27.618,8.644Z" transform="translate(41.647 29.934)" fill="#7461cf" />
+                                                                                        <path d="M41.463,49.009,38.2,52.27,52.009,66.079a2.3,2.3,0,0,0,3.254,0L82.881,38.461,79.627,35.2,53.645,61.207Z" transform="translate(47.114 43.209)" fill="#7461cf" />
+                                                                                        <path d="M59.537,61.125H49.058l-17.21-33.1A32.727,32.727,0,0,0,62.3,26.6h4.143a18.315,18.315,0,0,1,13.79,6.3c1.724-.262,3.429-.594,5.121-.971A22.978,22.978,0,0,0,66.441,22H61.654a2.32,2.32,0,0,0-1.229.354,27.984,27.984,0,0,1-29.395,0A2.32,2.32,0,0,0,29.8,22H25.015A23.04,23.04,0,0,0,2,45.015V72.633A11.521,11.521,0,0,0,13.507,84.14h6.9v20.713h4.6V84.14H59.537a11.507,11.507,0,1,0,0-23.015ZM13.507,79.537a6.9,6.9,0,0,1-6.9-6.9V45.015A18.315,18.315,0,0,1,10.93,33.183L25.459,61.125H20.412v4.6h7.441l7.181,13.809Zm26.713,0L14.444,29.965A18.285,18.285,0,0,1,25.015,26.6h.9L53.445,79.537Zm19.316,0h-.9L51.452,65.728h8.085a6.9,6.9,0,1,1,0,13.809Z" transform="translate(0 26.03)" fill="#7461cf" />
+                                                                                    </g>
+                                                                                </svg>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">Travel Accident Insurance</div>
+                                                                    <p>
+                                                                        • Get Travel Accident Insurance with coverage up to 31,000,000 Baht / incident when purchasing traveling expense through Big C World Mastercard Credit Card, the insurance coverage extends to cardholders’ spouse and their children (under 23 years old).
+                                                                        Please see more conditions and details on Big C World Mastercard Credit Card privileges book & manual.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="img">
+                                                                        <img src="../assets/img/static/bigcard-account-new.png" alt="big point card">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">Big Point Member Benefits</div>
+                                                                    <p>
+                                                                        • Collect point from every spending amount at every branch of Big C Supercenter, Big C Extra, Big C Market, Mini Big C, Big C Food Place, Big C Depot, Pure drug store and Big C Shopping Online, and get special discount at various partnering outlets in
+                                                                        Thailand by verifying Big C receipt with Big Point number appeared in. For more information, please visit
+                                                                        <a href="https://bigpoint.bigc.co.th/" class="link" target="_blank">bigpoint.bigc.co.th</a>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="img">
+                                                                        <img src="../assets/img/static/card-pic-01.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">Annual Fee Waived</div>
+                                                                    <p>
+                                                                        • Annual fee is waived for the first and the next year. Big C World Mastercard Credit cardholders are eligible for annual fee waived on primary and supplementary card when spending through Big C World Mastercard Credit Card at every branch of Big C Supercenter,
+                                                                        Big C Extra, Big C Market, Mini Big C, Big C Food Place, Big C Depot and Pure drug store or Big C Shopping Online at least once a year.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="img">
+                                                                        <img src="../assets/img/static/card-pic-02.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">Terms and Conditions</div>
+                                                                    <p>
+                                                                        • Exclusively for all Cardholders of Big C World Mastercard Credit Card issued by AEON Thana Sinsap (Thailand) Public Company Limited (“Company”) only.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="img">
+                                                                        <img src="../assets/img/static/card-pic-03.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">Term and Condition of instant discount at Big C</div>
+                                                                    <p>
+                                                                        • Receive 7% Instant Discount for selected items at Big C Shopping Online only and Receive 5% Instant Discount for selected items at every branch of Big C Supercenter, Big C Extra, Big C Market, Mini Big C, Big C Food Place, Big C Depot and Pure drug
+                                                                        store. (selected items only)
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • 7% Instant Discount applies for payment via payment gateway at Big C Shopping Online only
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • 5% Instant Discount applies for payment at every branches of Big C Supercenter, Big C Extra, Big C Market, Mini Big C, Big C Food Place, Big C Depot and Pure drug store. (selected items only)
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Payment by credit card on delivery cannot be applied for an instant discount
+                                                                    </p>
+                                                                    <p>
+                                                                        • In case payment made at Big C store, Cardholders must make payments by Big C World Mastercard Credit Card together with scanning Big Card QR code on the back of the same card only
+                                                                    </p>
+                                                                    <p>
+                                                                        • Maximum discount 1,500 Baht / month / card. For supplementary card getting additional discount from primary card up to 1,500 Baht / card / month (Limit number on 1 supplementary card / primary card)
+                                                                    </p>
+                                                                    <p>
+                                                                        • The discount will be calculated from the eligible full spending payment, including Electric  Appliance Category and spending amount will be calculated after deduction of discount coupon or gift voucher excluding  tobacco, liquor, infant milk powder
+                                                                        items, gift voucher, gift card, air time top-up, bill payment, online-booking services, optical store and mall tenant deposit or shop at plaza location, food center, Wholesale, payment
+                                                                        by Samsung Pay, all types of loan and hire purchase transactions, installment bill and other selected items as prescribed by the Company
+                                                                    </p>
+                                                                    <p>
+                                                                        • In case of refund and/or cancellation of purchased item, Cardholders will be refunded at the same amount of net payment (after discount)
+                                                                    </p>
+                                                                    <p>
+                                                                        • The Company reserves the right to reimburse discount quota for the refund and/or cancellation made within the spending month only
+                                                                    </p>
+                                                                    <p>
+                                                                        • Discount conditions are as prescribed by Big C Supercenter Public Company Limited
+                                                                    </p>
+                                                                    <p>
+                                                                        • Discount is the exclusive rights of the cardholders and cannot be transferred, changed or exchanged to cash or other services.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="img">
+                                                                        <img src="../assets/img/static/card-pic-04.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">Term and Condition of AEON Happy Plan</div>
+                                                                    <p>
+                                                                        Big C World Mastercard Credit Card cardholders can participate 0% interest installment payment with AEON Happy Plan when purchasing electric appliances and telephones (selected items) and Home-Line items (selected items) at every branch of Big C Supercenter
+                                                                        and Big C Extra
+                                                                    </p>
+                                                                    <p>
+                                                                        • 0% interest for 10-month when purchasing from 10,000 Baht or more / sale slip
+                                                                    </p>
+                                                                    <p>
+                                                                        • 0% interest for 6-month when purchasing from 5,000 Baht or more / sale slip
+                                                                    </p>
+                                                                    <p>
+                                                                        • Terms, conditions, agreements, rules and regulations of credit card are as prescribed in the Terms for Installment Payment via AEON Card (AEON Happy Plan) by the Company
+                                                                    </p>
+                                                                    <p>
+                                                                        • Please check additional details of products, terms and conditions at Financial Counter in electric appliance department of every branch of Big C Supercenter and Big C Extra
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="img">
+                                                                        <img src="../assets/img/static/card-pic-05.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">
+                                                                        Term and condition of AEON Happy Point (20 Baht = 1 Point) and Extra Happy Point
+                                                                    </div>
+                                                                    <p>
+                                                                        • Every 20 Baht spending through of Big C World Mastercard Credit Card, both primary and supplementary, Cardholders will earn 1 AEON Happy Point automatically, AEON Happy Point is calculated from the spending amount for purchase of goods and services
+                                                                        only, excluding cash advance and other services for example overdue debt interest, installment interest, fees, cash advance fees and electricity bill payment.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Extra AEON Happy Point maximum 2,000 points per billing cycle for any payment on categories : Restaurant, Hotel  (MCC CODE 5812-5814 and 3501-3999 และ 7011 as per VISA, Mastercard and JCB system), Shopping Online (exclude Big C Shopping Online) and
+                                                                        International Spending (Foreign Currency)
+                                                                    </p>
+                                                                    <p>
+                                                                        • Extra Happy Point shall be displayed on the bill within two billing cycles.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Transactions occurred by the Supplementary Cardholder shall be calculated into the Primary Cardholder Account.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Every 1,000 collective Point can redeem Big C E-Coupon valued 100 Baht via AEON THAI MOBILE Application.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Collective Points earned via Big C World Mastercard Credit Card cannot be accumulated with or transferred to other card types.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Big C Platinum Visa cardholders must be valid holders of AEON Credit Cards and in good standing when apply and be approved Big C World Mastercard. Points will be transferred from Big C Platinum Visa Card to Big C World Mastercard within two billing cycle
+                                                                    </p>
+                                                                    <p>
+                                                                        • Please check AEON Happy Point transferred balance from Big C Platinum Visa Card via
+                                                                        <a href="https://www.aeon.co.th/" class="link" target="_blank">www.aeon.co.th</a>. and
+                                                                        <a href="https://www.aeon.co.th/smartphone/checkos/?utm_source=dm&utm_medium=limit&_ga=2.259459913.2126044973.1591238802-1702044079.1569213088" class="link" target="_blank">AEON THAI MOBILE</a>                                                                        application or Big C card Customer service.
+                                                                    </p>
+                                                                    <p>
+                                                                        • AEON Happy Point is not transferable or convertible to cash, goods or other services.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Please check AEON Happy Point balance, expired date and additional details in monthly bill payment or on
+                                                                        <a href="https://www.aeon.co.th/" class="link" target="_blank">www.aeon.co.th</a>.
+                                                                    </p>
+                                                                    <p>
+                                                                        *Remark: Calculation of the Hotel and Restaurant spending, The Company refers information specified in Merchant Category Code (MCC Code) as per VISA, Mastercard and JCB system by calculating from the specified MCC Code only, other MCC Code spending are
+                                                                        excluded from the campaign.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Big C World Mastercard Credit cardholders must be valid holders of AEON Credit Cards and in good standing with no delinquency of credit card and/or all types of loan of the Company.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Big C World Mastercard offers cannot be combined with other promotional offers for Big C Platinum Visa Card.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Please be careful disclosure on the back of your credit card.
+                                                                    </p>
+                                                                    <p>
+                                                                        • In case of fraudulently using Big C World Mastercard Credit Card, using for commercial purpose, overpayment exceeding credit limit and/or breach of Terms and Conditions prescribed by the Company. The Company reserves the right to suspend, deny or cancel
+                                                                        offering Privileges.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Participation in this campaign is reserved for active cardholders with payment history in good standing under the Company’s criteria throughout the campaign and up until the privileges receiving date. Privileges will not be granted if (1) overpayment
+                                                                        is made into cardholder’s credit card account; (2) cardholder uses credit card or loan for any purpose in contrary to the law, public order or good morals, for commercial purpose
+                                                                        or for the business of cardholder, cardholder’s family, relatives or close acquaintances; (3) cardholder uses credit card or loan in the manner of not complying with the terms and
+                                                                        conditions as prescribed by the Company or the terms and conditions of this campaign. The Company reserves the right to cancel the privileges if the cardholder is later found to be
+                                                                        unqualified or ineligible.
+                                                                    </p>
+                                                                    <p>
+                                                                        • The Company is not involved with goods and/or services, in case of defect, please contact the manufacturer or service provider directly.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Terms and Conditions of Big C E-coupon are as prescribed by Big C Supercenter Public Company Limited.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Privileges are the exclusive rights of the eligible cardholders and cannot be transferred or converted into cash or other privileges.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Company reserves the right to change terms and conditions hereunder by giving notice on
+                                                                        <a href="https://www.aeon.co.th/" class="link" target="_blank">www.aeon.co.th</a>. In case of dispute, the Company’s decision shall be final.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Please check selected items and additional details at Stores, Sales booth or at
+                                                                        <a href="https://www.aeon.co.th/bigc/" class="link" target="_blank">www.aeon.co.th/bigc/ </a> and other advertising media of the Company.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Where these terms and conditions are in Thai and foreign languages, if there are any discrepancies or inconsistencies the Thai version shall prevail for interpretation.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-3 card-right">
+                                                    <div class="row no-gutters">
+                                                        <div class="col" style="overflow: hidden;">
+                                                            <div class="txt">
+                                                                <h2 class="txt-title txt-stroke">
+                                                                    CREDIT CARD
+                                                                </h2>
+                                                                <h2 class="txt-title mt-3">
+                                                                    Big C <br> World Mastercard
+                                                                </h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-img">
+                                                        <div class="cover">
+                                                            <img src="../assets/img/static/AEON-Big-C-Black.png" alt="Big C World Mastercard Card">
+                                                        </div>
+                                                    </div>
+                                                    <div class="register-btn">
+                                                        <a href="https://www.aeon.co.th/onlineapplycard/applycard/pcCustomer/checkMessengerArea?lang=en_EN&cardCode=WC&promoreferAEON=https%3A%2F%2Fwww.aeon.co.th%2Fonlineapplycard%2Fservices%2Fcustomer%3Flang%3Den_EN%26cardCode%3DWC&promorefer=&promorefer=https%3A%2F%2Fwww.aeon.co.th%2Faeon%2Fcards%2F%3F%26language_id%3D1"
+                                                            class="btn btn-primary -x2" target="_blank">Register Card</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="item big-c-platinum-visa" data-aos="fade-up">
+                                        <div class="credit-card red">
+                                            <h1 class="txt-bg" data-aos="fade-up" data-aos-delay="200">
+                                                PLATINUM
+                                            </h1>
+                                            <div class="row no-gutters">
+                                                <div class="col-lg-3 card-left">
+                                                    <div class="row no-gutters">
+                                                        <div class="col" style="overflow: hidden;">
+                                                            <div class="txt">
+                                                                <h2 class="txt-title txt-stroke">
+                                                                    CREDIT CARD
+                                                                </h2>
+                                                                <h2 class="txt-title mt-3">
+                                                                    Big C <br> Platinum Visa
+                                                                </h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-img">
+                                                        <div class="cover">
+                                                            <img src="../assets/img/static/AEON-Big-C-Red.png" alt="Big C Platinum Visa Card">
+                                                        </div>
+                                                    </div>
+                                                    <div class="register-btn">
+                                                        <a href="https://www.aeon.co.th/onlineapplycard/applycard/pcCustomer/checkMessengerArea?lang=en_EN&cardCode=VC&promoreferAEON=https%3A%2F%2Fwww.aeon.co.th%2Fonlineapplycard%2Fservices%2Fcustomer%3Flang%3Den_EN%26cardCode%3DVC&promorefer=&promorefer=https%3A%2F%2Fwww.aeon.co.th%2Faeon%2Fcards%2F%3F%26language_id%3D1"
+                                                            class="btn btn-primary -x2" target="_blank">Register Card</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg">
+                                                    <div class="box blur">
+                                                        <div class="row">
+                                                            <div class="col-lg-auto">
+                                                                <h3 class="topic">
+                                                                    Card Benefit of Big C Platinum Visa Card
+                                                                </h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scroll">
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="circle">
+                                                                        <p>
+                                                                            3 <span class="percent">%</span>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">3% Instant Discount at Big C</div>
+                                                                    <p>
+                                                                        • Receive 3% Instant Discount, maximum 1,000 Baht / month / card at every branch of Big C Supercenter, Big C Extra, Big C Market, Mini Big C, Big C Food Place, Big C Depot, Pure drug store and Big C Shopping Online when making payment on selected items
+                                                                        including making a full payment on electrics appliances with Big C Platinum Visa Card and scanning Big Point QR code on the back of credit card (for online shopping, the privilege
+                                                                        applies only when card members pick up products at Big C branches and pay via Big C Shopping Online website)
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="circle">
+                                                                        <p>
+                                                                            0<span class="percent">%</span>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">0% with 6-Month Installment Plan</div>
+                                                                    <p>
+                                                                        • Get special interest rate at 0% for 6-month installment payment with AEON Happy Plan when purchasing electric appliances (selected items) and Home-Line items (selected items) from 5,000 Baht or more / sales slip at every branch of Big C Supercenter
+                                                                        and Big C Extra
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="circle">
+                                                                        <div class="icon ml-4">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="138.089" height="138.089" viewBox="0 0 138.089 138.089">
+                                                                                    <g transform="translate(-2 -2)">
+                                                                                        <path d="M34.015,48.03A23.015,23.015,0,1,0,11,25.015,23.015,23.015,0,0,0,34.015,48.03Zm0-41.427A18.412,18.412,0,1,1,15.6,25.015,18.412,18.412,0,0,1,34.015,6.6Z" transform="translate(11.713 0)" fill="#7461cf" />
+                                                                                        <rect width="4.603" height="4.603" transform="translate(43.427 64.14)" fill="#7461cf" />
+                                                                                        <path d="M96.391,34.22A80.358,80.358,0,0,1,67.3,25.27a2.3,2.3,0,0,0-2.163,0,80.358,80.358,0,0,1-29.088,8.95A2.3,2.3,0,0,0,34,36.508V63.769a50.209,50.209,0,0,0,31.335,46.209,2.3,2.3,0,0,0,1.772,0A50.209,50.209,0,0,0,98.441,63.769V36.508a2.3,2.3,0,0,0-2.051-2.288ZM93.839,63.769A45.581,45.581,0,0,1,66.221,105.35,45.581,45.581,0,0,1,38.6,63.769V38.545A84.883,84.883,0,0,0,66.221,29.9a84.865,84.865,0,0,0,27.618,8.644Z" transform="translate(41.647 29.934)" fill="#7461cf" />
+                                                                                        <path d="M41.463,49.009,38.2,52.27,52.009,66.079a2.3,2.3,0,0,0,3.254,0L82.881,38.461,79.627,35.2,53.645,61.207Z" transform="translate(47.114 43.209)" fill="#7461cf" />
+                                                                                        <path d="M59.537,61.125H49.058l-17.21-33.1A32.727,32.727,0,0,0,62.3,26.6h4.143a18.315,18.315,0,0,1,13.79,6.3c1.724-.262,3.429-.594,5.121-.971A22.978,22.978,0,0,0,66.441,22H61.654a2.32,2.32,0,0,0-1.229.354,27.984,27.984,0,0,1-29.395,0A2.32,2.32,0,0,0,29.8,22H25.015A23.04,23.04,0,0,0,2,45.015V72.633A11.521,11.521,0,0,0,13.507,84.14h6.9v20.713h4.6V84.14H59.537a11.507,11.507,0,1,0,0-23.015ZM13.507,79.537a6.9,6.9,0,0,1-6.9-6.9V45.015A18.315,18.315,0,0,1,10.93,33.183L25.459,61.125H20.412v4.6h7.441l7.181,13.809Zm26.713,0L14.444,29.965A18.285,18.285,0,0,1,25.015,26.6h.9L53.445,79.537Zm19.316,0h-.9L51.452,65.728h8.085a6.9,6.9,0,1,1,0,13.809Z" transform="translate(0 26.03)" fill="#7461cf" />
+                                                                                    </g>
+                                                                                </svg>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">Travel Accident Insurance</div>
+                                                                    <p>
+                                                                        • Get Travel Accident Insurance with coverage up to 31,000,000 Baht / incident when purchasing travel service through Big C Platinum Visa Card, the insurance coverage extends to Card members’ spouse and their children (under 23 years old). Please see
+                                                                        more conditions and details on Big C Platinum Visa Card privileges book & manual.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="img">
+                                                                        <img src="../assets/img/static/card-wc-2.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">
+                                                                        AEON Happy Point
+                                                                    </div>
+                                                                    <p>
+                                                                        • Every 20 Baht of spending through Big C Platinum Visa Card at any merchants, get 1 AEON Happy Point
+                                                                    </p>
+                                                                    <p>
+                                                                        • Cardholders can redeem AEON Happy Point for Big C E-Coupon via AEON THAI MOBILE Application (1,000 AEON Happy Points for Big C E-Coupon valued 100 Baht)
+                                                                    </p>
+                                                                    <p>
+                                                                        • The company reserves the right for purchase of any mutual fund or insurance policy through AEON credit card will no longer be entitled to AEON Happy Rewards Point and promotion campaigns which incurred via AEON credit card for the transactions at any
+                                                                        under code (MCC 5960, 6211, 6300, 9223).
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="img">
+                                                                        <img src="../assets/img/static/card-pic-01.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">
+                                                                        Annual Fee Waived
+                                                                    </div>
+                                                                    <p>
+                                                                        • Annual fee is waived for the first and the next year. Big C Platinum Visa Card members are eligible for annual fee waived on primary and supplementary card when spending through Big C Platinum Visa Card at every branch of Big C Supercenter, Big C Extra,
+                                                                        Big C Market, Mini Big C, Big C Food Place, Big C Depot and Pure drug store or Big C Shopping Online at least once a year.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="img">
+                                                                        <img src="../assets/img/static/bigcard-account-new.png" alt="big point card">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">
+                                                                        Big Point Member Benefits
+                                                                    </div>
+                                                                    <p>
+                                                                        • Collect point from every Baht of purchasing at every branch of Big C Supercenter, Big C Extra, Big C Market, Mini Big C, Big C Food Place, Big C Depot, Pure drug store and Big C Shopping Online and get special discount at various partnering outlets
+                                                                        in Thailand by presenting Big C receipt with Big Point number appeared in. For more information, please visit
+                                                                        <a href="https://bigpoint.bigc.co.th/" class="link" target="_blank">bigpoint.bigc.co.th</a>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="img">
+                                                                        <img src="../assets/img/static/card-pic-02.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">
+                                                                        Terms and Conditions
+                                                                    </div>
+                                                                    <p>
+                                                                        • Exclusively for all Card members of Big C Platinum Visa Card issued by AEON Thana Sinsap (Thailand) Public Company Limited (“Company”) only
+                                                                    </p>
+                                                                    <p>
+                                                                        • Term and Condition of instant discount at Big C
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Instant Discount for selected items at every branch of Big C Supercenter, Big C Extra, Big C Market, Mini Big C, Big C Food Place, Big C Depot, Pure drug store and Big C Shopping Online
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Card members must make payments by Big C Platinum Visa Card together with scanning Big Point QR code on the back of the same card only
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Maximum discount 1,000 Baht / month / card. Supplementary card gets additional discount up to 1,000 Baht / card / month (Limit number on 1 supplementary card / primary card)
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • The instant discount will be calculated from the eligible full spending payment, including Electric Appliance Category and spending amount will be calculated after deduction of discount coupon or gift voucher excludes tobacco, liquor, infant milk powder
+                                                                        items, gift voucher, gift card, air time top-up, bill payment, online-booking services, optical store and mall tenant deposit or shop at plaza location, food center, Wholesale, payment
+                                                                        by Samsung Pay, all types of loan and hire purchase transactions, installment bill and other selected items as prescribed by the Company
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • In case of refund and/or cancellation of purchased item, Card members will be refunded at the same amount of net payment (after discount)
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • The Company reserves the right to reimburse discount quota for the refund and/or cancellation made within the spending month only
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Conditions are as prescribed by Big C Supercenter Public Company Limited
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Discount is the exclusive rights of the cardholders and cannot be transferred, changed or exchanged to cash or other services.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Term and Condition of AEON Happy Plan
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Big C Platinum payWave cardholders can enjoy 0% interest for 6-month installment payment with AEON Happy Plan when purchasing electric appliances (selected items) and Home-Line items (selected items) from 5,000 Baht or more / sales slip at every branch
+                                                                        of Big C Supercenter and Big C Extra
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Terms, conditions, agreements, rules and regulations of credit card are as prescribe in the Terms for Installment Payment via AEON Card (AEON Happy Plan) by the Company
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Please check additional details of products, terms and conditions at Financial Counter in electric appliance department of every branch of Big C Supercenter and Big C Extra
+                                                                    </p>
+                                                                    <p>
+                                                                        • Term and condition of AEON Happy Point (20 Baht = 1 Point)
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Every 20 Baht spending through of Big C Platinum Visa Card, both primary and supplementary, card members will earn 1 AEON Happy Point automatically, AEON Happy Point is calculated from the spending amount for purchase of goods and services only, excluding
+                                                                        overdue debt interest, installment interest, fees, cash advance fees and electricity bill payment.
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Every 1,000 collective Point can redeem Big C E-Coupon valued 100 Baht via AEON THAI MOBILE Application.
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Points earned via Big C Platinum Visa Card may not be combined with or transferred between Big C Platinum payWave and other card types.
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • AEON Happy Point are not transferable or convertible to cash, goods or other services.
+                                                                    </p>
+                                                                    <p class="sub-content">
+                                                                        • Please check AEON Happy Point balance, expiry date and additional details in monthly payment advice or on
+                                                                        <a href="https://www.aeon.co.th/" class="link" target="_blank">www.aeon.co.th</a>.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Big C Platinum Visa Card members must be valid holders of AEON Credit Cards and in good standing with no delinquency of credit card and/or all types of loan of the Company.
+                                                                    </p>
+                                                                    <p>
+                                                                        • In case of fraudulently using Big C Platinum Visa Card, using for commercial purpose, overpayment exceeding credit limit and/or breach of Terms and Conditions prescribed by the Company. The Company reserves the right to suspend, deny or cancel offering
+                                                                        Privileges.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Participation in this campaign is reserved for active cardholders with payment history in good standing under the Company’s criteria throughout the campaign and up until the privileges receiving date. Privileges will not be granted if (1) overpayment
+                                                                        is made into cardholder’s credit card account; (2) cardholder uses credit card or loan for any purpose in contrary to the law, public order or good morals, for commercial purpose
+                                                                        or for the business of cardholder, cardholder’s family, relatives or close acquaintances; (3) cardholder uses credit card or loan in the manner of not complying with the terms and
+                                                                        conditions as prescribed by the Company or the terms and conditions of this campaign. The Company reserves the right to cancel the privileges if the cardholder is later found to be
+                                                                        unqualified or ineligible.
+                                                                    </p>
+                                                                    <p>
+                                                                        • The Company is not involved with goods and/or services, in case of defect, please contact the manufacturer or service provider directly.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Terms and Conditions of Big C E-coupon are as prescribed by the Company and Big C Supercenter Public Company Limited.
+                                                                    </p>
+                                                                    <p>
+                                                                        • In case of dispute, the Company’s decision shall be final.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Privileges cannot be transferred to or converted into cash or other privileges.
+                                                                    </p>
+                                                                    <p>
+                                                                        • Please check selected items and additional details at Stores, Sales booth or at
+                                                                        <a href="https://www.aeon.co.th/bigc/" class="link" target="_blank">www.aeon.co.th/bigc/ </a> and other advertising media of the Company
+                                                                    </p>
+                                                                    <p>
+                                                                        • Where these terms and conditions are in Thai and foreign languages, if there are any discrepancies or inconsistencies the Thai version shall prevail for interpretation.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-3 card-right">
+                                                    <div class="row no-gutters">
+                                                        <div class="col" style="overflow: hidden;">
+                                                            <div class="txt">
+                                                                <h2 class="txt-title txt-stroke">
+                                                                    CREDIT CARD
+                                                                </h2>
+                                                                <h2 class="txt-title mt-3">
+                                                                    Big C <br> Platinum Visa
+                                                                </h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-img">
+                                                        <div class="cover">
+                                                            <img src="../assets/img/static/AEON-Big-C-Red.png" alt="Big C Platinum Visa Card">
+                                                        </div>
+                                                    </div>
+                                                    <div class="register-btn">
+                                                        <a href="https://www.aeon.co.th/onlineapplycard/applycard/pcCustomer/checkMessengerArea?lang=en_EN&cardCode=VC&promoreferAEON=https%3A%2F%2Fwww.aeon.co.th%2Fonlineapplycard%2Fservices%2Fcustomer%3Flang%3Den_EN%26cardCode%3DVC&promorefer=&promorefer=https%3A%2F%2Fwww.aeon.co.th%2Faeon%2Fcards%2F%3F%26language_id%3D1"
+                                                            class="btn btn-primary -x2" target="_blank">Register Card</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="item big-c-exclusive" data-aos="fade-up">
+                                        <div class="credit-card green">
+                                            <h1 class="txt-bg" data-aos="fade-up" data-aos-delay="200">
+                                                EXCLUSIVE
+                                            </h1>
+                                            <div class="row no-gutters">
+                                                <div class="col-lg-3 card-left">
+                                                    <div class="row no-gutters">
+                                                        <div class="col" style="overflow: hidden;">
+                                                            <div class="txt">
+                                                                <h2 class="txt-title txt-stroke">
+                                                                    CREDIT CARD
+                                                                </h2>
+                                                                <h2 class="txt-title mt-3">
+                                                                    Big C <br> Exclusive
+                                                                </h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-img">
+                                                        <div class="cover">
+                                                            <img src="../assets/img/static/AEON-Big-C-Green.png" alt="Big C Exclusive Card">
+                                                        </div>
+                                                    </div>
+                                                    <div class="register-btn">
+                                                        <a href="https://www.aeon.co.th/onlineapplycard/applycard/pcCustomer/checkMessengerArea?lang=en_EN&cardCode=ZC&promoreferAEON=https%3A%2F%2Fwww.aeon.co.th%2Fonlineapplycard%2Fservices%2Fcustomer%3Flang%3Den_EN%26cardCode%3DZC&promorefer=&promorefer=https%3A%2F%2Fwww.aeon.co.th%2Faeon%2Fcards%2F%3F%26language_id%3D1"
+                                                            class="btn btn-primary -x2" target="_blank">Register Card</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg">
+                                                    <div class="box blur">
+                                                        <div class="row">
+                                                            <div class="col-lg-auto">
+                                                                <h3 class="topic">
+                                                                    Card Benefit of Big C Exclusive Card
+                                                                </h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scroll">
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="circle">
+                                                                        <p>
+                                                                            0 <span class="percent">%</span>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">0% for 3 Month Installment Plan</div>
+                                                                    <p>
+                                                                        • Get special interest rate at 0% for 3 months installment payment with AEON Happy Pay for All the item (selected items) when purchasing from 3,000 Baht or more / sales slip at every branch of Big C Supercenter and Big C Extra
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="circle">
+                                                                        <p class="typo-40">
+                                                                            0.59%
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">0.59% per Month for 18 Month Installment Plan</div>
+                                                                    <p>
+                                                                        • Get special interest rate at 0.59% per month up to 18 months installment payment with AEON Happy Pay (equivalent to effective rate of Interest and Credit Usage Fee up to 13.02% p.a. in approximate) for All the item (selected items) when purchasing from
+                                                                        5,000 Baht or more / sales slip at every branch of Big C Supercenter and Big C Extra
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="circle none">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">Entrance Fee Waived</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="img">
+                                                                        <img src="../assets/img/static/bigcard-account-new.png" alt="big point card">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">Big Point Member Benefits</div>
+                                                                    <p>
+                                                                        • Collect every Baht of purchasing at every branch of Big C Super Supercenter, Big C Extra, Big C Market, Mini Big C, Pure drug store and Big C Shopping Online, and get special discount or extra benefits at various partnering outlets in Thailand. For
+                                                                        more information, please visit
+                                                                        <a href="https://bigpoint.bigc.co.th/" class="link" target="_blank">bigpoint.bigc.co.th</a>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-auto">
+                                                                    <div class="img">
+                                                                        <img src="../assets/img/static/card-pic-02.png" alt="big point card">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="fw-bold">Terms and Conditions</div>
+                                                                    <p>
+                                                                        • Exclusively for all members of Big C Exclusive Card issued by AEON Thana Sinsap (Thailand) Public Company Limited (“Company”) only
+                                                                    </p>
+                                                                    <p>
+                                                                        • Big C Exclusive Card members must have credit limit for installment higher than purchasing amount on the purchasing date, please check credit limit via EDC at point of sales or telephone number 0-2329-7788 on the payment date. Loan approval, credit
+                                                                        limit assignment/adjustment and repayment conditions are at sole discretion of the Company
+                                                                    </p>
+                                                                    <p>
+                                                                        • Privileges are not transferable or convertible to cash or other privileges
+                                                                    </p>
+                                                                    <p>
+                                                                        • The Company reserves the right to suspend, deny or cancel offering Privileges in case of fraudulence, using for commercial purpose and/or breach of Terms and Conditions prescribed by the Company
+                                                                    </p>
+                                                                    <p>
+                                                                        • Big C Exclusive Card members must be a valid holders of AEON cards and in good standing with no delinquency of credit card and/or all types of loan of the Company
+                                                                    </p>
+                                                                    <p>
+                                                                        • The Company is not involved with goods and/or services, in case of defect, please contact the manufacturer or service provider directly
+                                                                    </p>
+                                                                    <p>
+                                                                        • Terms and Conditions are as prescribed by the Company and Big C Supercenter Public Company Limited and subject to change without prior notice
+                                                                    </p>
+                                                                    <p>
+                                                                        • Please check selected items and additional details at point of sales or at
+                                                                        <a href="https://www.aeon.co.th/bigc/" class="link" target="_blank">www.aeon.co.th/bigc/ </a> and other advertising media of the Company
+                                                                    </p>
+                                                                    <p>
+                                                                        • In case of dispute, the Company’s decision shall be final
+                                                                    </p>
+                                                                    <p>
+                                                                        • Where these Terms and Conditions are made in Thai and other languages version and there is any discrepancy or inconsistency, the Thai version shall prevail for the interpretation
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-3 card-right">
+                                                    <div class="row no-gutters">
+                                                        <div class="col" style="overflow: hidden;">
+                                                            <div class="txt">
+                                                                <h2 class="txt-title txt-stroke">
+                                                                    CREDIT CARD
+                                                                </h2>
+                                                                <h2 class="txt-title mt-3">
+                                                                    Big C <br> Exclusive
+                                                                </h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-img">
+                                                        <div class="cover">
+                                                            <img src="../assets/img/static/AEON-Big-C-Green.png" alt="Big C Exclusive Card">
+                                                        </div>
+                                                    </div>
+                                                    <div class="register-btn">
+                                                        <a href="https://www.aeon.co.th/onlineapplycard/applycard/pcCustomer/checkMessengerArea?lang=en_EN&cardCode=ZC&promoreferAEON=https%3A%2F%2Fwww.aeon.co.th%2Fonlineapplycard%2Fservices%2Fcustomer%3Flang%3Den_EN%26cardCode%3DZC&promorefer=&promorefer=https%3A%2F%2Fwww.aeon.co.th%2Faeon%2Fcards%2F%3F%26language_id%3D1"
+                                                            class="btn btn-primary -x2" target="_blank">Register Card</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <?php } ?>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="copy-right" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-center">
+                        Terms and Conditions are as prescribed by the Company. Please check additional details at other advertising media of the Company. <br> © Copy right 2018 AEON Thana Sinsap (Thailand) Public Company Limited. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Core -->
+    <script src="assets/js/jquery-2.2.4.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/validator.min.js"></script>
+    <script src="assets/js/jquery.lazyload.min.js"></script>
+
+    <script src="assets/js/sweetalert2@11.js"></script>
+
+    <script src="assets/js/slick-vdo.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+
+    <script src="assets/js/lazyload.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/sticky-sidebar.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    
+
+    <!-- Fancybox -->
+    <script src="assets/js/fancybox.umd.js"></script>
+
+    <!-- AOS -->
+    <script src="assets/js/aos.js"></script>
+
+    
+
+    <!-- Custom -->
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+    </script>
+
+    <script>
+        $('.card-register').addClass('active');
+    </script>
+
+</body>
+
+</html>
+
+<!-- <div class="row no-gutters justify-content-between card-reserve">
+    <div class="col-4">
+        <div class="card-img">
+            <div class="cover">
+                <img src="../assets/img/static/AEON-Big-C-Black.png" alt="Big C Platinum Visa Card">
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="card-img">
+            <div class="cover">
+                <img src="../assets/img/static/AEON-Big-C-Black.png" alt="Big C Platinum Visa Card">
+            </div>
+        </div>
+    </div>
+</div> -->

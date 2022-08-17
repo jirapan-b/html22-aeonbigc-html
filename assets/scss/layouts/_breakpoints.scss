@@ -1,0 +1,1008 @@
+@media (min-width: 1440px) {
+	.container {
+		max-width: inherit;
+		width: 1440px;
+	}
+}
+@media (max-width: 1800px) {
+	.card-register-page {
+		.credit-card .register-btn {
+			margin: 0 2rem;
+		}
+	}
+}
+
+@media (max-width: 1600px) {
+	.container {
+		max-width: inherit;
+		width: 1440px;
+	}
+
+	// .site-header {
+	// 	// height: 160px;
+	// 	height: 12%;
+	// }
+	// .site-container {
+	// 	// height: calc(90% - 160px);
+	// 	height: 78%;
+	// }
+	.site-header .nav .menu ul > li:not(:first-child) {
+		margin-left: 4rem;
+	}
+
+	.card-register-page {
+		.credit-card .register-btn {
+			margin: 0;
+		}
+		.gallery-item-2 {
+			left: -64%;
+		}
+		.gallery-item-4 {
+			left: 160%;
+		}
+	}
+
+	.card-register-page {
+		.slick-prev,
+		.slick-next {
+			width: 60px;
+		}
+		.slick-prev {
+			left: -80px;
+		}
+		.slick-next {
+			right: -80px;
+		}
+	}
+
+	.card-activate-page {
+		.card-img {
+			max-width: 19vw;
+			&.black {
+				transform: rotate(31deg) translateX(0px) translateY(40px);
+			}
+			&.red {
+				transform: rotate(31deg) translateX(-115px) translateY(110px);
+			}
+		}
+		.graphic {
+			position: absolute;
+			top: 170px;
+			right: 130px;
+			width: 140px;
+		}
+	}
+	.insurance-page .logo {
+		max-height: 64px;
+	}
+}
+
+@media (max-width: 1440px) {
+	.container {
+		max-width: inherit;
+		width: 1210px;
+	}
+
+	// .site-header {
+	// 	height: 130px;
+	// }
+	// .site-container {
+	// 	height: calc(90% - 130px);
+	// }
+	.site-header {
+		// height: 12%;
+		.nav {
+			margin: 0 calc(4rem - 15px);
+			.logo {
+				margin-right: 17rem;
+				width: 80px;
+			}
+			.home,
+			.brand,
+			.lang {
+				height: 70px;
+			}
+			.brand {
+				width: 160px;
+			}
+			.home,
+			.lang {
+				width: 70px;
+			}
+			.menu ul > li:not(:first-child) {
+				margin-left: 2rem;
+			}
+		}
+	}
+
+	.home-page {
+		.credit-card:hover {
+			.card-img {
+				transform: translateY(-3rem) scale(1.2);
+			}
+			.txt-title {
+				transform: translateY(-5rem) scale(1.3);
+				&.txt-stroke {
+					transform: translateY(-6rem) scale(1.3);
+				}
+			}
+		}
+	}
+
+	.insurance-page .item .icon {
+		width: 13vh;
+	}
+
+	.btn-primary,
+	.btn-secondary {
+		line-height: 50px;
+		width: 140px;
+		height: 50px;
+		&.-x2 {
+			width: 220px;
+			height: 70px;
+			line-height: 70px;
+		}
+	}
+	// .site-container {
+	// 	height: 78%;
+	// }
+
+	// .gallery-controls-previous {
+	// 	left: 24px;
+	// }
+	// .gallery-controls-next {
+	// 	right: 24px;
+	// }
+	.gallery-controls-previous {
+		left: 50px;
+	}
+	.gallery-controls-next {
+		// right: 80px;
+		right: 50px;
+	}
+	.txt-bg {
+		left: 12rem;
+	}
+
+	.card-register-page {
+		.credit-card {
+			.circle {
+				width: 110px;
+				height: 110px;
+				span.percent {
+					bottom: 10px;
+				}
+			}
+			.box .img {
+				max-width: 100px;
+			}
+		}
+		.gallery-controls-previous {
+			left: 76px;
+		}
+		.gallery-controls-next {
+			right: 72px;
+		}
+		.gallery-controls-next:hover::before {
+			right: -11px;
+		}
+		.gallery-item-2 {
+			left: -55%;
+		}
+		.gallery-item-4 {
+			left: 151%;
+		}
+	}
+	.card-register-page {
+		.slick-prev,
+		.slick-next {
+			width: 50px;
+		}
+		.slick-prev {
+			left: -60px;
+		}
+		.slick-next {
+			right: -60px;
+		}
+		.slick-slide {
+			margin: 0 4rem;
+		}
+		/* the parent */
+		.slick-list {
+			margin: 0 -4rem;
+		}
+	}
+
+	.card-activate-page .graphic {
+		position: absolute;
+		top: 190px;
+		right: 50px;
+	}
+
+	.insurance-page .logo {
+		max-height: 56px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.container {
+		max-width: inherit;
+		width: 970px;
+	}
+
+	// .site-header {
+	// 	height: 120px;
+	// }
+
+	// .site-container {
+	// 	height: calc(90% - 120px);
+	// }
+
+	.site-header .nav {
+		.menu ul > li:not(:first-child) {
+			margin-left: 3rem;
+		}
+		.logo {
+			margin-right: 0;
+			width: 70px;
+		}
+		.home,
+		.brand,
+		.lang {
+			height: 60px;
+		}
+		.brand {
+			width: 140px;
+		}
+		.home,
+		.lang {
+			width: 60px;
+		}
+	}
+
+	.insurance-page {
+		.txt {
+			padding: 0;
+		}
+		.item .icon {
+			width: 10vh;
+		}
+	}
+
+	.btn-primary,
+	.btn-secondary {
+		line-height: 46px;
+		width: 124px;
+		height: 46px;
+		&.-x2 {
+			width: 180px;
+			height: 60px;
+			line-height: 60px;
+		}
+	}
+
+	// .gallery-controls-previous {
+	// 	left: 0px;
+	// }
+	// .gallery-controls-next {
+	// 	right: 0px;
+	// }
+	.gallery-controls-previous::before,
+	.gallery-controls-next::before {
+		width: 60px;
+		height: 60px;
+	}
+	.gallery-controls-previous {
+		left: 20px;
+	}
+	.gallery-controls-next {
+		// right: 50px;
+		right: 20px;
+	}
+	.gallery-container {
+		height: 46vh;
+	}
+
+	.txt-bg {
+		left: 15px;
+		right: 15px;
+		text-align: center;
+	}
+
+	.card-register-page {
+		.credit-card {
+			.circle {
+				width: 92px;
+				height: 92px;
+				span.percent {
+					bottom: 6px;
+					right: -23px;
+				}
+			}
+			.box .img {
+				max-width: 80px;
+			}
+			.scroll {
+				height: 40vh;
+			}
+
+			.txt-bg {
+				display: none;
+			}
+			.card-img {
+				right: -15px;
+			}
+		}
+		.gallery-controls-previous {
+			left: 50px;
+		}
+		.gallery-controls-next {
+			right: 50px;
+		}
+		.gallery-controls-previous:hover::before {
+			left: -10px;
+		}
+		.gallery-item-2 {
+			left: -33%;
+		}
+		.gallery-item-4 {
+			left: 134%;
+		}
+		.slick-prev,
+		.slick-next {
+			top: 38%;
+		}
+	}
+
+	.card-activate-page {
+		.card-img {
+			&.black {
+				transform: rotate(31deg);
+			}
+			&.red {
+				transform: rotate(31deg);
+			}
+			&.green {
+				transform: rotate(31deg);
+			}
+		}
+		.card-img:hover {
+			&.black {
+				transform: scale(1.1) rotate(31deg);
+			}
+			&.red {
+				transform: scale(1.1) rotate(31deg);
+			}
+			&.green {
+				transform: scale(1.1) rotate(31deg);
+			}
+		}
+		.txt-bg {
+			text-align: left;
+			left: 30px;
+		}
+		.graphic {
+			width: 100px;
+		}
+	}
+
+	.default-page .detail .box .scroll {
+		height: 48vh;
+	}
+
+	.card-register-page .credit-card .txt {
+		margin: 3rem 0;
+	}
+
+	.insurance-page .logo {
+		max-height: 40px;
+	}
+
+	.insurance-page .btn-primary.-x2, .insurance-page .btn-secondary.-x2 {
+		width: 250px;
+	}
+}
+
+@media (max-width: 991px) {
+	.container {
+		max-width: inherit;
+		width: 100%;
+	}
+
+	.global-container {
+		// overflow: initial;
+		height: auto;
+	}
+
+	.site-header {
+		height: 90px;
+	}
+
+	.site-container {
+		margin-top: 90px;
+		height: auto;
+		// height: calc(90% - 90px);
+	}
+
+	.site-footer {
+		height: auto;
+		padding: 4rem 0;
+	}
+
+	.site-header {
+		position: fixed;
+		width: 100%;
+		.nav {
+			margin: 0 15px;
+			.toggle {
+				display: block;
+				position: fixed;
+				right: 15px;
+				z-index: 100;
+			}
+			// .logo {
+			// 	margin-right: 0;
+			// 	width: 52px;
+			// }
+			.menu {
+				position: fixed;
+				// background-color: #ead9ff;
+				background-image: url(../img/background/00-Main-bg.png);
+				background-position: -80px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				width: 100%;
+				height: 100%;
+				right: 0;
+				top: 0;
+				z-index: 99;
+				transform: translateX(100%);
+				transition: 0.3s ease-in-out;
+				.item-list {
+					position: fixed;
+					display: flex;
+					flex-direction: column;
+					width: 100%;
+					height: 100%;
+					justify-content: center;
+				}
+				ul > li {
+					padding: 15px;
+					text-align: center;
+				}
+				ul > li:not(:first-child) {
+					// border-top: 1px solid rgba(0, 0, 0, 0.2);
+					margin-left: 0;
+				}
+				.link {
+					font-size: 28px;
+				}
+			}
+			.menu.open {
+				transform: translateX(0);
+			}
+			.brand-lang {
+				margin-right: 6.2rem;
+			}
+			.logo {
+				margin-right: 0;
+				width: 60px;
+			}
+			.home,
+			.brand,
+			.lang,
+			.icon {
+				height: 50px;
+			}
+			.brand {
+				width: 120px;
+			}
+			.home {
+				width: 50px;
+				margin-right: 1rem;
+			}
+			.lang {
+				width: 50px;
+				margin-left: 1rem;
+			}
+			.icon {
+				width: 50px;
+			}
+		}
+		.nav.scroll::before {
+			// top: 0;
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	.home-page {
+		.credit-card {
+			margin-top: 2rem;
+			margin-bottom: 3rem;
+			.card-img {
+				max-width: 50vw;
+			}
+			.txt-title {
+				font-size: 7vw;
+				text-shadow: var(--box-shadow);
+			}
+			.btn {
+				opacity: 1;
+			}
+		}
+		.credit-card:hover {
+			// background-color: rgba(255, 255, 255, 0.3);
+			.card-img {
+				transform: translateY(0) scale(1);
+			}
+			.txt-title {
+				transform: translateY(0) scale(1);
+				&.txt-stroke {
+					transform: translateY(0) scale(1);
+				}
+			}
+		}
+	}
+
+	.insurance-page {
+		.txt-bg {
+			display: none;
+		}
+		.txt {
+			text-align: center;
+			margin-top: 2rem;
+			margin-bottom: 3rem;
+		}
+		.item .icon {
+			width: 10vh;
+		}
+		.btn-primary,
+		.btn-secondary {
+			width: 50%;
+		}
+	}
+
+	.box-blur {
+		display: none;
+	}
+
+	.gallery-controls-previous::before,
+	.gallery-controls-next::before {
+		width: 50px;
+		height: 50px;
+	}
+
+	.gallery-item-3 {
+		width: 70vw;
+	}
+	.gallery-controls-previous {
+		left: 0px;
+	}
+	.gallery-controls-next {
+		// right: 30px;
+		right: 0px;
+	}
+
+	.txt-bg {
+		position: relative;
+		left: 0;
+		right: 0;
+		text-align: center;
+		top: 24px;
+		font-size: 18vw;
+	}
+
+	.btn-primary,
+	.btn-secondary {
+		&.-x2 {
+			width: 180px;
+			height: 50px;
+			line-height: 50px;
+		}
+	}
+
+	.card-register-page {
+		.credit-card {
+			.txt {
+				width: 100%;
+				left: 0;
+				text-align: center;
+			}
+			.card-img {
+				transform: scale(1);
+				right: 0;
+				margin: 2rem auto;
+			}
+			.register-btn {
+				position: relative;
+				text-align: center;
+				margin-bottom: 2rem;
+			}
+			.scroll {
+				height: 28vh;
+			}
+			.card-img {
+				max-width: 70%;
+			}
+			.btn-primary.-x2,
+			.btn-secondary.-x2 {
+				width: 70%;
+			}
+		}
+		.gallery-item-2,
+		.gallery-item-4 {
+			opacity: 0;
+		}
+		.gallery-container {
+			height: 90vh;
+		}
+		.gallery-controls-next {
+			right: 30px;
+		}
+		.gallery-controls-previous {
+			left: 20px;
+		}
+		.txt-title {
+			font-size: 11vw;
+		}
+		.credit-card {
+			.circle {
+				font-size: 50px;
+				margin-left: 0;
+				span.percent {
+					right: -22px;
+				}
+			}
+			.box .img {
+				margin-left: 0;
+			}
+			.scroll {
+				height: auto;
+				overflow: initial;
+				padding-right: 0;
+			}
+		}
+		.card-right {
+			display: none;
+		}
+		.slick-prev,
+		.slick-next {
+			width: 46px;
+			top: 460px;
+		}
+		.slick-prev {
+			left: 0;
+		}
+		.slick-next {
+			right: 0;
+		}
+	}
+
+	.card-activate-page {
+		.card-img {
+			max-width: 50vw;
+			margin-bottom: 3rem;
+			&.black,
+			&.red,
+			&.green {
+				transform: none;
+			}
+		}
+		.card-img:hover {
+			&.black,
+			&.red,
+			&.green {
+				transform: scale(1.1) rotate(0);
+			}
+		}
+		.txt-bg {
+			position: absolute;
+			left: 15px;
+			right: 15px;
+			top: auto;
+			text-align: center;
+			margin-top: 3rem;
+			font-size: 12vw;
+		}
+		.txt {
+			text-align: center;
+		}
+		.txt-title {
+			font-size: 8vw;
+		}
+		.activate-btn {
+			text-align: center;
+			margin-bottom: 3rem;
+		}
+		.btn-primary,
+		.btn-secondary {
+			&.-x2 {
+				width: 50vw;
+			}
+		}
+		.graphic {
+			display: none;
+		}
+	}
+
+	.default-page .scroll {
+		height: auto;
+		overflow: auto;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+	.insurance-page .insur-btn {
+		margin-bottom: 0;
+		margin-top: 2rem;
+		top: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		max-width: inherit;
+		width: 100%;
+	}
+
+	.site-header .nav {
+		.logo {
+			margin-right: 0;
+			width: 50px;
+		}
+		.brand-lang {
+			margin-right: 5rem;
+		}
+		.home,
+		.brand,
+		.lang,
+		.icon {
+			height: 40px;
+		}
+		.brand {
+			width: 100px;
+		}
+		.home,
+		.lang {
+			padding: 0;
+			width: 40px;
+			margin-left: 1rem;
+		}
+		.icon {
+			width: 40px;
+		}
+	}
+
+	.home-page {
+		.credit-card {
+			padding: 0 32px;
+			.card-img {
+				max-width: 100%;
+				// margin: 1rem auto 0 auto;
+				// margin: 0 32px;
+			}
+			.txt-title {
+				font-size: 10vw;
+			}
+		}
+		.credit-card > .row {
+			margin: 0 -6px;
+			.col-6 {
+				padding: 0 6px;
+			}
+		}
+	}
+
+	.insurance-page {
+		.btn-primary,
+		.btn-secondary {
+			width: 100%;
+		}
+	}
+
+	.btn-primary,
+	.btn-secondary {
+		width: 100%;
+		&.-x2 {
+			height: 46px;
+			line-height: 46px;
+		}
+	}
+	.gallery-item-3 {
+		width: 80vw;
+	}
+	// .gallery-controls-previous {
+	// 	left: -10px;
+	// }
+	// .gallery-controls-next {
+	// 	right: -10px;
+	// }
+	.gallery-controls-previous::before,
+	.gallery-controls-next::before {
+		width: 46px;
+		height: 46px;
+		top: 15px;
+	}
+	.gallery-controls button {
+		width: 60px;
+		height: 60px;
+		margin: 0;
+	}
+	.gallery-controls-next::before {
+		right: 20px;
+	}
+	.gallery-controls-previous::before {
+		left: 20px;
+	}
+	.gallery-controls-next:hover::before {
+		right: 15px;
+	}
+	.gallery-controls-previous:hover::before {
+		left: 15px;
+	}
+	.gallery-controls {
+		top: 43%;
+	}
+
+	.txt-bg {
+		top: 24px;
+	}
+
+	.card-register-page {
+		.gallery-controls-next {
+			right: 20px;
+		}
+		.gallery-controls-previous {
+			left: 10px;
+		}
+	}
+
+	.card-register-page {
+		.credit-card {
+			.topic {
+				padding: 1rem;
+			}
+			.box {
+				padding: 2rem;
+			}
+			.circle {
+				span.percent {
+					right: -18px;
+				}
+			}
+		}
+		.slick-prev,
+		.slick-next {
+			width: 36px;
+			top: 360px;
+		}
+	}
+
+	.card-activate-page {
+		.card-img {
+			max-width: 70vw;
+		}
+		.btn-primary,
+		.btn-secondary {
+			&.-x2 {
+				width: 70vw;
+			}
+		}
+	}
+
+	.default-page .scroll > .row:not(:last-child) {
+		margin-bottom: 2rem;
+	}
+
+	.default-page .detail .box {
+		padding: 2rem;
+	}
+	.default-page .detail .box .scroll {
+		height: auto;
+	}
+
+	.insurance-page .btn-primary.-x2, .insurance-page .btn-secondary.-x2 {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 575px) {
+	.container {
+		max-width: inherit;
+		width: 100%;
+	}
+
+	.home-page {
+		.credit-card {
+			.card-img {
+				margin: 2rem auto 0 auto;
+			}
+			.btn {
+				margin-top: 2rem;
+			}
+		}
+	}
+	.gallery-controls-previous::before,
+	.gallery-controls-next::before {
+		width: 38px;
+		height: 38px;
+	}
+	.gallery-controls-previous {
+		left: -5px;
+	}
+	.gallery-controls-next {
+		// right: 25px;
+		right: -5px;
+	}
+
+	.card-register-page {
+		.credit-card {
+			.circle,
+			.box .img {
+				margin: 0 auto 2rem auto;
+			}
+		}
+		.txt-title {
+			font-size: 11vw;
+		}
+		.slick-prev,
+		.slick-next {
+			width: 30px;
+			top: 210px;
+		}
+		.gallery-controls-previous {
+			left: 0;
+		}
+		.gallery-controls-next {
+			right: 0;
+		}
+		.gallery-controls-previous:hover::before {
+			left: 10px;
+		}
+		.gallery-controls-next:hover::before {
+			right: 12px;
+		}
+		.slick-slide {
+			height: 0px !important;
+		}
+		.slick-slide.slick-active {
+			height: 100% !important;
+		}
+	}
+
+	.card-activate-page {
+		.card-img {
+			max-width: 100%;
+		}
+		.btn-primary,
+		.btn-secondary {
+			&.-x2 {
+				width: 100%;
+			}
+		}
+		.txt-title {
+			font-size: 12vw;
+		}
+	}
+
+	.btn-primary,
+	.btn-secondary {
+		&.-x2 {
+			height: 42px;
+			line-height: 42px;
+		}
+	}
+
+	// .default-page .detail .box {
+	// 	margin: 2rem 0;
+	// }
+}
+
+// @media (max-width: 375px) {
+// 	.default-page .detail .box .scroll{
+// 		height: auto;
+// 	}
+// }

@@ -1,0 +1,52 @@
+.card-activate-page {
+    .col-xl-7 {
+        height: 100%;
+    }
+    .row {
+        height: 100%;
+        align-items: center;
+    }
+    .box-blur::before {
+        width: 62%;
+    }
+    .graphic {
+        position: absolute;
+        top: 170px;
+        right: 70px;
+    }
+    .card-img {
+        transform: rotate(31deg);
+        max-width: 18vw;
+        margin: 0 auto;
+        // margin-bottom: 15rem;
+        &.black {
+            // transform: rotate(31deg) translateX(-80px) translateY(100px);
+            transform: rotate(31deg) translateX(-30px) translateY(60px);
+        }
+        &.red {
+            // transform: rotate(31deg) translateX(-200px) translateY(180px);
+            transform: rotate(31deg) translateX(-160px) translateY(140px);
+        }
+        &.green {
+            // transform: rotate(31deg) translateX(60px) translateY(-120px);
+            transform: rotate(31deg) translateX(130px) translateY(-185px);
+        }
+    }
+    .card-img:hover {
+        &.black {
+           transform: scale(1.1) rotate(31deg) translateX(-30px) translateY(60px);
+        }
+        &.red {
+            transform: scale(1.1) rotate(31deg) translateX(-160px) translateY(140px);
+        }
+        &.green {
+            transform: scale(1.1) rotate(31deg) translateX(130px) translateY(-185px);
+        }
+    }
+    .txt {
+        margin-bottom: 3rem;
+        hr {
+            border-top: 1px solid #fff;
+        }
+    }
+}
